@@ -19,7 +19,7 @@
         "passWithNoTests": true
       }
     },
-    "storybook": {
+    "serve": {
       "executor": "@nrwl/storybook:storybook",
       "options": {
         "uiFramework": "@storybook/react",
