@@ -3,6 +3,8 @@ import NxWelcome from './nx-welcome';
 
 import { Route, Link } from 'react-router-dom';
 
+import styles from './App.scss';
+
 export function App() {
   return (
     <>
@@ -25,6 +27,7 @@ export function App() {
           </li>
         </ul>
       </div>
+      <div className={styles.App}>tesssssst</div>
       <Route
         path="/"
         exact
